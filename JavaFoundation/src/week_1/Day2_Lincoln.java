@@ -2,7 +2,7 @@ package week_1;
 
 // Demonstrate the basic structure of a Java application
 
-public class Lincoln_day2 {
+public class Day2_Lincoln {
 
     // Prints a presidential quote
     public static void main(String[] args) {
