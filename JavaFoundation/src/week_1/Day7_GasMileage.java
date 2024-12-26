@@ -21,6 +21,6 @@ public class Day7_GasMileage {
 
         mpg = miles / gallons;
 
-        System.out.println(" Miles Per Gallon: " + mpg);
+        System.out.println(" Miles Per Gallon: " + miles);
     }
 }
