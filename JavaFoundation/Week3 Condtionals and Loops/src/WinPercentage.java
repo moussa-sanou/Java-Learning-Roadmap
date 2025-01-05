@@ -1,4 +1,3 @@
-
 // Demonstrate the use of a while loop for input validation.
 
 import java.text.NumberFormat;
