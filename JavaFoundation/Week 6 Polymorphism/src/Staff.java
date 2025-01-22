@@ -20,8 +20,7 @@ public class Staff {
 
         staffList[5] = new Volunteer("Benny", "321 Dud Lane", "555-7282");
 
-        ((Executive)staffList[0].awardBonus(500.00));
-        ((Hourly)staffList[3].addHours(40));
+
     }
 
     // Pays all staff members
