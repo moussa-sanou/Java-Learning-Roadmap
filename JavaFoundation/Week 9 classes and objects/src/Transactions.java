@@ -15,5 +15,16 @@ public class Transactions {
         System.out.println("Adam balance after deposit: " + adamsBalance);
 
         System.out.println("Adams balance after withdrawal: " + acct2.withdraw(480, 1.50));
+
+        acct3.withdraw(-100.00, 1.50); // invalid transaction
+
+        acct1.addInterest();
+        acct2.addInterest();
+        acct3.addInterest();
+
+        System.out.println();
+        System.out.println(acct1);
+        System.out.println(acct2);
+        System.out.println(acct3);
     }
 }
