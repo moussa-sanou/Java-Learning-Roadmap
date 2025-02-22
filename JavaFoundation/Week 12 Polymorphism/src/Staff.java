@@ -23,7 +23,7 @@ public class Staff {
 
         ((Executive)staffList[0]).awardBonus(500.00);
 
-        ((Hourly)staffList[3]).addHours(40);
+        //((Hourly)staffList[3]).addHours(40);
     }
 
     // Pays all staff members.
