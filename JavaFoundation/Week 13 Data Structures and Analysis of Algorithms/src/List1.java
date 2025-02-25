@@ -23,5 +23,19 @@ public class List1 {
         // Access element index
         String fruit = fruits.get(2);
         System.out.println("Element at index 2: " + fruit);
+
+        // Remove element by index
+        fruits.remove(0);
+        System.out.println("After removing index 0: " + fruits);
+
+        // Remove element by value
+        fruits.remove("Banana");
+        System.out.println("After removing Banana: " + fruits );
+
+        // Check size
+        System.out.println("Current size: " + fruits.size());
+
+        // Check if empty
+        System.out.println("Is empty? " + fruits.isEmpty());
     }
 }
