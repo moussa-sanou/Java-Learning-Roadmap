@@ -37,5 +37,12 @@ public class List1 {
 
         // Check if empty
         System.out.println("Is empty? " + fruits.isEmpty());
+
+        // Iteration Methods
+        System.out.println("\nIterating with for-each:");
+        for (String f : fruits)
+        {
+            System.out.println(f);
+        }
     }
 }
