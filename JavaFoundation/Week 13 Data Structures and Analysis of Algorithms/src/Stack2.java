@@ -1,5 +1,7 @@
-// Create a stack taking string elements
+/* In java stack is the linear data structure that follows the LIFO principle. Java
+* provides built-in support for stacks through the stack. */
 
+// Create a stack taking string elements
 import java.util.Stack;
 
 public class Stack2 {
@@ -36,5 +38,7 @@ public class Stack2 {
 
         // Pop top element from the top of the stack
         System.out.println("The top element pop from the stack is: " + s2.pop());
+
+
     }
 }
