@@ -34,5 +34,48 @@ public class ArrayStack {
         return stackArray[top--]; // Return to element, then decrement top
     }
 
+    // Return the top element without removing it.
+    public int peek()
+    {
+        if (isEmpty())
+        {
+            throw new IllegalStateException("Stack is empty.");
+        }
+        return stackArray[top];
+    }
+
+    // Check if the stack is empty
+    public boolean isEmpty()
+    {
+        return (top == -1);
+    }
+
+    // Check if the stack is full
+    public boolean isFull()
+    {
+        return (top == maxSize - 1);
+    }
+
+    // Get the current size of the stack
+    public int size()
+    {
+        return top + 1;
+    }
+
+    // Example usage
+    public static void main(String[] args) {
+
+        ArrayStack stack = new ArrayStack(3);
+
+        // Push elements
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        System.out.println("Top element: " + stack.peek());  // 30
+
+
+    }
+
 
 }
