@@ -31,5 +31,18 @@ public class linkedList {
         Llist.set(0, "Lettuce");
         System.out.println("This is the new Linkedlist after the modification: "
         + "\n" + Llist);
+        System.out.println();
+
+        // Using for loop and the get method
+        for (int i = 0; i < Llist.size(); i++)
+        {
+            System.out.println(Llist.get(i) + " ");
+            System.out.println();
+        }
+
+        // Using for loop
+        for (String str : Llist)
+            System.out.println(str + " ");
     }
+
 }
